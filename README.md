@@ -41,3 +41,28 @@ const pool = mysql.createPool(
 - **데이터베이스** 실습은 재미 ~~없어요~~있어요.
 
 ## 3주차 DB 테이블
+
+학변|성명|학과|학년|입학일자|이메일|
+-|-|-|-|-|-|
+
+<br>
+
+
+## 8주차 DB 테이블
+<br>
+
+- Department
+
+Dname|Dnumber|Mgr_ssn|Mgr_start_date|
+-|-|-|-|
+<br>
+
+- Employee
+
+Fname|Minit|Lname|Ssn|Bdate|Address|Sex|Salary|Super_ssn|Dno|
+-|-|-|-|-|-|-|-|-|-|
+<br>
+
+## 10주차 DB 테이블
+Dname|Dnumber|
+-|-|

@@ -3,9 +3,9 @@ import mysql from "mysql2";
 const pool = mysql.createPool(
   process.env.JAWSDB_URL ?? {
     host: 'localhost',
-    user: 'root', // ë³¸ì¸?˜ mysql user id
-    database: 'student', // ë³¸ì¸?´ ë§Œë“  ?°?´?„°ë² ì´?Š¤ ?´ë¦„ìœ¼ë¡? ?ˆ˜? •?•˜?„¸?š”
-    password: '12161809', // ë³¸ì¸?˜ mysql password
+    user: 'root', // ë³¸ì¸ì˜ mysql user id
+    database: 'tutorial', // ë³¸ì¸ì´ ë§Œë“  ë°ì´í„°ë² ì´ìŠ¤ ì´ë¦„ìœ¼ë¡œ ìˆ˜ì •í•˜ì„¸ìš”
+    password: '12161809', // ë³¸ì¸ì˜ mysql password
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0

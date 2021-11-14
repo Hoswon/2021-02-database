@@ -10,7 +10,7 @@ const PORT = 3000;
 
 const app = express();
 
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.set('views', path.join(__dirname, '../views'))
@@ -25,4 +25,3 @@ app.use('/select', selectRouter);
 app.listen(PORT, () => {
     console.log(`Example app listening at http://localhost:${PORT}`)
 })
-

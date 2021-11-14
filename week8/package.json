@@ -1,10 +1,11 @@
 {
-  "name": "week8",
+  "name": "week_8",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "nodemon -L --exec babel-node ./src/index.js"
   },
+  "author": "mskim",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.2",
